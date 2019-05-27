@@ -21,6 +21,9 @@ chsh -s $(which zsh)
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Symlink Neovim
+ln -s $HOME/.dotfiles/nvim $HOME/nvim
+
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 

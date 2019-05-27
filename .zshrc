@@ -1,6 +1,6 @@
 # Dotfiles
 export DOTFILES="$HOME/.dotfiles"
-source $DOTFILES/aliases.zsh
+source $DOTFILES/alias.zsh
 
 # Antibody
 source $DOTFILES/zsh_plugins.sh

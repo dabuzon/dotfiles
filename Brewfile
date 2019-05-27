@@ -3,6 +3,7 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'getantibody/antibody'
 
 # Binaries
 brew 'bash'
@@ -40,6 +41,7 @@ cask 'font-space-mono'
 cask 'font-work-sans'
 
 # Apps
+cask '1password'
 cask 'adobe-creative-cloud'
 cask 'craftmanager'
 cask 'discord'
@@ -49,7 +51,7 @@ cask 'google-backup-and-sync'
 cask 'google-chrome-canary'
 cask 'iina'
 cask 'iterm2'
-cask 'logitech-options'
+cask 'homebrew/cask-drivers/logitech-options'
 cask 'now'
 cask 'paparazzi'
 cask 'processing'
@@ -64,7 +66,6 @@ cask 'visual-studio-code'
 cask 'workbench'
 
 # Mac App Store
-mas '1Password', id: 1333542190
 mas 'Disk Cleaner', id: 970246631
 mas 'iA Writer', id: 775737590
 mas 'iStat Menus', id: 1319778037

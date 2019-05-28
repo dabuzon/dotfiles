@@ -15,16 +15,20 @@ brew tap homebrew/bundle
 brew bundle
 
 # Make ZSH the default shell environment
-echo /usr/local/bin/bash | sudo tee -a /etc/shells
+echo /usr/local/bin/zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Setup Antibody
+antibody bundle <"$DOTFILES/zsh_plugins.txt" >"$DOTFILES/zsh_plugins.sh"
+antibody update
+
 # Symlink Neovim
 rm -rf $HOME/.local
-ln -s $HOME/.dotfiles/nvim $HOME/nvim
+ln -s $HOME/.dotfiles/nvim $HOME/.config/nvim
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg

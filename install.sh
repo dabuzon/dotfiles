@@ -2,6 +2,9 @@
 
 echo "Setting up Mac..."
 
+# Install macOS Command Line Tools
+xcode-select --install
+
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -15,8 +18,8 @@ brew tap homebrew/bundle
 brew bundle
 
 # Make ZSH the default shell environment
-echo /usr/local/bin/zsh | sudo tee -a /etc/shells
-chsh -s $(which zsh)
+sudo sh -c 'echo $(brew --prefix)/bin/zsh >> /etc/shells' && \
+chsh -s $(brew --prefix)/bin/zsh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc

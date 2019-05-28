@@ -36,6 +36,12 @@ ln -s $HOME/.dotfiles/nvim $HOME/.config/nvim
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Symlink VSCode configuration
+ln -s $HOME/.dotfiles/vscode $HOME/.vscode
+
+# Remove .CFUserTextEncoding
+rm .CFUserTextEncoding
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos

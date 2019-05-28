@@ -2,7 +2,6 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
-tap 'homebrew/bundle'
 
 # Binaries
 brew 'bash'
@@ -71,6 +70,7 @@ mas 'iA Writer', id: 775737590
 mas 'iStat Menus', id: 1319778037
 mas 'KakaoTalk', id: 869223134
 mas 'Keynote', id: 409183694
+mas 'Magnet', id: 441258766
 mas 'Noizio', id: 928871589
 mas 'SnippetsLab', id: 1006087419
 mas 'Spark', id: 1176895641

@@ -1,3 +1,6 @@
+# zsh_plugins.sh will write itself
+zsh_plugins.sh
+
 # Compiled source #
 ###################
 *.com

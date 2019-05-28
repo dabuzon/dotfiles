@@ -5,7 +5,7 @@ alias m="mkdir"
 alias o="open ."
 alias rf="rm -rf"
 alias la="ls -al"
-alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
+alias bundle="antibody bundle <"$DOTFILES/zsh_plugins.txt" >"$DOTFILES/zsh_plugins.sh""
 
 # Directories
 alias dot="cd $DOTFILES"

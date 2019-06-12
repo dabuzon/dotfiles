@@ -17,8 +17,10 @@ alias wp="wifi-password"
 # Dev
 alias cra="yarn create react-app"
 alias ya="yarn add"
-alias ys="yarn init"
+alias install="yarn init"
 alias yi="yarn install"
+alias ys="yarn start"
+alias yb="yarn build"
 
 # Git
 alias stage="git add . && git commit -m"

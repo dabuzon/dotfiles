@@ -10,6 +10,9 @@ alias bundle="antibody bundle <"$DOTFILES/zsh_plugins.txt" >"$DOTFILES/zsh_plugi
 # Directories
 alias dot="cd $DOTFILES"
 
+# Maintenance
+alias mb="mackup backup"
+
 # Plugins
 alias yt="youtube-dl -f bestvideo+bestaudio"
 alias wp="wifi-password"

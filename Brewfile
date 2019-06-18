@@ -22,6 +22,7 @@ brew 'wifi-password'
 brew 'yarn'
 brew 'youtube-dl'
 brew 'zsh'
+brew 'zsh-autosuggestions'
 brew 'zsh-completions'
 
 # Fonts

@@ -49,6 +49,7 @@ cask 'font-work-sans'
 # Apps
 cask '1password'
 cask 'adobe-creative-cloud'
+cask 'balenaetcher'
 cask 'discord'
 cask 'dozer'
 cask 'figma'

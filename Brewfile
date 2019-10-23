@@ -15,7 +15,6 @@ brew 'eslint'
 brew 'mackup'
 brew 'mas'
 brew 'neovim'
-brew 'netnewswire'
 brew 'now-cli'
 brew 'screenfetch'
 brew 'trash'
@@ -73,6 +72,7 @@ cask 'workbench'
 mas 'Disk Cleaner', id: 970246631
 mas 'iA Writer', id: 775737590
 mas 'iStat Menus', id: 1319778037
+mas 'KakaoTalk', id: 869223134
 mas 'Keynote', id: 409183694
 mas 'Magnet', id: 441258766
 mas 'Noizio', id: 928871589

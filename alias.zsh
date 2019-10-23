@@ -24,6 +24,7 @@ alias install="yarn init"
 alias yi="yarn install"
 alias ys="yarn start"
 alias yb="yarn build"
+alias nw="now --prod"
 
 # Git
 alias stage="git add . && git commit -m"

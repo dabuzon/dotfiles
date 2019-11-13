@@ -59,6 +59,7 @@ cask 'iina'
 cask 'iterm2'
 cask 'homebrew/cask-drivers/logitech-options'
 cask 'manta'
+cask 'notion'
 cask 'now'
 cask 'paparazzi'
 cask 'skype'
@@ -77,4 +78,5 @@ mas 'Keynote', id: 409183694
 mas 'Magnet', id: 441258766
 mas 'Noizio', id: 928871589
 mas 'SnippetsLab', id: 1006087419
+mas 'Slack', id: 803453959
 mas 'Spark', id: 1176895641

@@ -50,30 +50,31 @@ cask 'font-work-sans'
 # Apps
 cask '1password'
 cask 'adobe-creative-cloud'
-cask 'balenaetcher'
-cask 'discord'
 cask 'dozer'
 cask 'figma'
 cask 'firefox'
+cask 'framer'
 cask 'google-backup-and-sync'
 cask 'iina'
 cask 'iterm2'
+cask 'krisp'
 cask 'homebrew/cask-drivers/logitech-options'
-cask 'manta'
 cask 'notion'
 cask 'now'
 cask 'paparazzi'
-cask 'signal'
+cask 'principle'
+cask 'rightfont'
+cask 'sketch'
 cask 'skype'
 cask 'slack'
 cask 'spotify'
 cask 'sublime-text'
 cask 'visual-studio-code'
 cask 'workbench'
+cask 'zeplin'
 
 # Mac App Store
 mas 'Disk Cleaner', id: 970246631
-mas 'iA Writer', id: 775737590
 mas 'iStat Menus', id: 1319778037
 mas 'KakaoTalk', id: 869223134
 mas 'Keynote', id: 409183694

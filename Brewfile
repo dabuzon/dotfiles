@@ -1,7 +1,7 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 
 # Binaries
 brew 'bash'
@@ -50,35 +50,48 @@ cask 'font-work-sans'
 # Apps
 cask '1password'
 cask 'adobe-creative-cloud'
-cask 'balenaetcher'
+cask 'calibre'
 cask 'discord'
 cask 'dozer'
 cask 'figma'
 cask 'firefox'
+cask 'framer'
+cask 'garmin-express'
 cask 'google-backup-and-sync'
 cask 'iina'
 cask 'iterm2'
+cask 'keyboard-maestro'
+cask 'karabiner-elements'
+cask 'krisp'
 cask 'homebrew/cask-drivers/logitech-options'
-cask 'manta'
+cask 'loom'
 cask 'notion'
 cask 'now'
-cask 'paparazzi'
-cask 'signal'
-cask 'skype'
-cask 'slack'
+cask 'plex'
+cask 'sketch'
 cask 'spotify'
 cask 'sublime-text'
+cask 'textexpander'
+cask 'vidrio'
 cask 'visual-studio-code'
 cask 'workbench'
+cask 'zeplin'
+cask 'zotero'
 
 # Mac App Store
+mas 'Adguard for Safari', id: 1440147259
+mas 'Are.na for Safari', id: 1497800947
+mas 'Deliveries: a package tracker', id: 290986013
 mas 'Disk Cleaner', id: 970246631
-mas 'iA Writer', id: 775737590
+mas 'DuckDuckGo Privacy Essentials', id: 1482920575
+mas 'ImageFinder for Safari', id: 1514863337
 mas 'iStat Menus', id: 1319778037
-mas 'KakaoTalk', id: 869223134
-mas 'Keynote', id: 409183694
 mas 'Magnet', id: 441258766
-mas 'Noizio', id: 928871589
+mas 'npmhub', id: 1542090429
+mas 'RightFont - font manager', id: 1475782381
+mas 'RunCat', id: 1429033973
 mas 'SnippetsLab', id: 1006087419
 mas 'Slack', id: 803453959
 mas 'Spark', id: 1176895641
+mas 'Things 3', id: 904280696
+mas 'Ulysses', id: 1225570693
